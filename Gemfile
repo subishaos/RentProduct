@@ -32,6 +32,8 @@ gem 'haml'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'angular_rails_csrf'
+gem "rolify"
+
 source "https://rails-assets.org" do
   gem "rails-assets-angular-devise"
 end
