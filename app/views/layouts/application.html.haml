@@ -1,0 +1,12 @@
+!!!
+%html{'ng-app': 'RentProduct'}
+  %head
+  %base{:href => "/"}
+  %title RentProduct
+  = csrf_meta_tags
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+  = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
+
+  %body{'ng-controller': 'RentProductController'}
+    %div{'ng-view': ''}
